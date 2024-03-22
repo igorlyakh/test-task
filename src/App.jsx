@@ -1,3 +1,4 @@
+import Layout from '@components/Layout';
 import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -5,7 +6,7 @@ const App = () => {
     <Routes>
       <Route
         path="/"
-        element={<div>Layout</div>}
+        element={<Layout />}
       >
         <Route
           index
