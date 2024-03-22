@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
   body {
     font-family: ${({ theme }) => theme.fonts.mainFont};
-    color: ${({ theme }) => theme.colors.mainGray};
+    color: ${({ theme }) => theme.colors.mainDark};
   }
 
   img {
