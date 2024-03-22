@@ -1,26 +1,38 @@
 export const tags = [
   {
     text: 'adults',
-    icon: 'icon',
+    icon: 'icon-users',
+    fill: 'black',
+    stroke: 'black',
   },
   {
     text: 'Automatic',
-    icon: 'icon',
+    icon: 'icon-automatic',
+    fill: 'none',
+    stroke: 'black',
   },
   {
     text: 'Petrol',
-    icon: 'icon',
+    icon: 'icon-petrol',
+    fill: 'black',
+    stroke: 'black',
   },
   {
     text: 'Kitchen',
-    icon: 'icon',
+    icon: 'icon-kitchen',
+    fill: 'none',
+    stroke: 'black',
   },
   {
     text: 'beds',
-    icon: 'icon',
+    icon: 'icon-beds',
+    fill: 'none',
+    stroke: 'black',
   },
   {
     text: 'AC',
-    icon: 'icon',
+    icon: 'icon-ac',
+    fill: 'black',
+    stroke: 'black',
   },
 ];

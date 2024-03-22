@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const TagWrapper = styled.div`
   display: flex;
   gap: 8px;
+  width: 526px;
+  flex-wrap: wrap;
 `;
 
 export const StyledTag = styled.div`
